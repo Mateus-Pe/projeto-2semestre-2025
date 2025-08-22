@@ -1,0 +1,11 @@
+GET http://localhost:8080/api-fatec/clientes/testeCliente1
+
+GET http://localhost:8080/api-fatec/clientes/testeCliente2/Mateus
+
+POST http://localhost:8080/api-fatec/clientes
+Content-Type: application/json
+
+{
+  "id": 1,
+  "nome": "João da Silva"
+}

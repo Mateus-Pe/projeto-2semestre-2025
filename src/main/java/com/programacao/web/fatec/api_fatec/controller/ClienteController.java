@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.programacao.web.fatec.api_fatec.entities.Cliente;
 
-@RequestMapping("/api/clientes")
+@RequestMapping("/api-fatec/clientes")
 public class ClienteController {
+
+    @GetMapping("/testeCliente1")
     public String testeCliente(){
         return "Teste Client";
     }
